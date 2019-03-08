@@ -20,7 +20,7 @@ A study of basic React component design using npm, Webpack, JSX, Babel, CSS modu
 * npm
 * Webpack
 
-* [Github Repo] (https://github.com/kellibrookedev/)
+* [Github Repo] (https://github.com/kellibrookedev/react-farmers-market-site)
 
 ## License
 
