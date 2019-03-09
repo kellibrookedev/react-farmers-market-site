@@ -1,19 +1,18 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+
+import Header from './Header';
 import MarketScheduleBox from './MarketScheduleBox';
 import ProduceCalendarBox from './ProduceCalendarBox';
 
 function App() {
   return (
     <div className="container">
-      <style jsx>{`
-        h1 {
-          text-align: center;
-          font-family: cursive;
-        }
-        `}</style>
-    <h1>Avery's Organics</h1>
-      <MarketScheduleBox/>
-      <ProduceCalendarBox/>
+      <Header/>
+      <Switch>
+      <Route exact path='/' component={MarketScheduleBox}/>
+      <Route path='/calendar' component={ProduceCalendarBox}/>
+      </Switch>
     </div>
   );
 }

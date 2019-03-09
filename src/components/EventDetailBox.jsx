@@ -28,7 +28,7 @@ function EventDetailBox(props) {
         }
         `}</style>
       <div className="outer-box">
-      <h5>{props.day}</h5>
+        <h5>{props.day}</h5>
 
         <div className="row">
           <div className="col s4">

@@ -26,9 +26,9 @@ function MonthDetailBox(props) {
         `}</style>
       <div className="outer-box">
         <h5>{props.month}</h5>
-            {props.selection.map((aPlant, index) =>
-              <div className="plant-div">{aPlant} |</div>
-            )}
+        {props.selection.map((aPlant, index) =>
+          <div className="plant-div">{aPlant} |</div>
+        )}
 
       </div>
 
